@@ -1,0 +1,38 @@
+name: pypsa_Japan
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - cartopy  # 地理空間データの処理と可視化
+  - folium
+  - geopandas
+  - highspy
+  - linopy
+  - nbformat
+  - netCDF4
+  - numpy
+  - openpyxl
+  - pandas
+  - plotly
+  - pyomo
+  - scipy
+  - xarray
+  - xlsxwriter
+  - ipywidgets
+  - ipython
+  - ipykernel
+  - requests
+  - openpyxl
+  - pypsa[excel]
+  - xarray[excel]
+  - python-calamine
+  - xlrd
+  - pyxlsb
+  - beautifulsoup4
+  - pip:
+      - pypsa==1.0.3   # ← pip経由で最新版を取得
+      - geovoronoi
+      - seaborn
+
+
